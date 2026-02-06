@@ -136,7 +136,7 @@
     </form><h3>Ubicación</h3>
 <p>Av. Bienestar #123, Col. Centro, Ciudad de México</p>
 
-<iframe src="https://www.google.com/maps?q=Ciudad%20de%20Mexico&output=embed"></iframe>
+<iframe src="https://www.google.com/maps?q=Ciudad%20de%20Puebla&output=embed"></iframe>
 
   </div>
 </section><footer>
