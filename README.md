@@ -43,29 +43,6 @@
     </form><h3>Ubicación</h3>
 <p>Av. Bienestar #123, Col. Centro, Ciudad de México</p>
 
-<iframe src="https://www.google.com/maps?q=Ciudad%20de%20Mexico&output=embed"></iframe>
+<iframe src="https://www.google.com/maps?q=Ciudad%20de%20Puebla&output=embed"></iframe>
 
-  </div>
-</section><footer>
-  <p>© 2026 Spa Relajarte</p>
-</footer><script>
-  function login() {
-    const user = document.getElementById('user').value;
-    const pass = document.getElementById('pass').value;
 
-    if (user === 'admin' && pass === '1234') {
-      document.getElementById('login').style.display = 'none';
-      document.getElementById('menu').style.display = 'flex';
-      showSection('generales');
-    } else {
-      document.getElementById('loginMsg').innerText = 'Usuario o contraseña incorrectos';
-    }
-  }
-
-  function showSection(id) {
-    const sections = document.querySelectorAll('section');
-    sections.forEach(sec => sec.classList.remove('active'));
-    document.getElementById(id).classList.add('active');
-  }
-</script></body>
-</html>
