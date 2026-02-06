@@ -1,8 +1,14 @@
 
-  Spa Relajarte
-  Tu espacio de descanso y bienestar
-  
-  Generales</a>
+  <h1>Spa Relajarte</h1>
+  <p>Tu espacio de descanso y bienestar</p>
+</header><!-- LOGIN --><div id="login" class="login-box">
+  <h2>Inicio de Sesión</h2>
+  <input type="text" id="user" placeholder="Usuario">
+  <input type="password" id="pass" placeholder="Contraseña">
+  <button onclick="login()">Ingresar</button>
+  <p id="loginMsg" style="color:red"></p>
+</div><!-- MENU --><nav id="menu" style="display:none">
+  <a href="#" onclick="showSection('generales')">Generales</a>
   <a href="#" onclick="showSection('galeria')">Galería</a>
   <a href="#" onclick="showSection('contacto')">Contáctanos</a>
 </nav><!-- GENERALES --><section id="generales" class="active">
@@ -43,6 +49,29 @@
     </form><h3>Ubicación</h3>
 <p>Av. Bienestar #123, Col. Centro, Ciudad de México</p>
 
-<iframe src="https://www.google.com/maps?q=Ciudad%20de%20Puebla&output=embed"></iframe>
+<iframe src="https://www.google.com/maps?q=Ciudad%20de%20Mexico&output=embed"></iframe>
+
+  </div>
+</section><footer>
+  <p>© 2026 Spa Relajarte</p>
+</footer><script>
+  function login() {
+    const user = document.getElementById('user').value;
+    const pass = document.getElementById('pass').value;
+
+    if (user === 'admin' && pass === '1234') {
+      document.getElementById('login').style.display = 'none';
+      document.getElementById('menu').style.display = 'flex';
+      showSection('generales');
+    } else {
+      document.getElementById('loginMsg').innerText = 'Usuario o contraseña incorrectos';
+    }
+  }
+
+  function showSection(id) {
+    const sections = document.querySelectorAll('section');
+    sections.forEach(sec => sec.classList.remove('active'));
+    document.getElementById(id).classList.add('active');
+  }
 
 
