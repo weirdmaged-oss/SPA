@@ -103,7 +103,7 @@
   <div class="card">
     <h2>Sobre Nuestro Spa</h2>
     <p>
-      En <b>Spa Relajarte</b> ofrecemos servicios de masajes terapéuticos, faciales,
+      En <b>Spa </b> ofrecemos servicios de masajes terapéuticos, faciales,
       aromaterapia y tratamientos corporales diseñados para reducir el estrés
       y mejorar tu bienestar físico y mental.
     </p>
