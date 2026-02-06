@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <title>Spa Relajarte</title>
@@ -161,5 +161,5 @@
     document.getElementById(id).classList.add('active');
   }
 </script></body>
-</html>
+
 
