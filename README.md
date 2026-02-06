@@ -140,7 +140,7 @@
 
   </div>
 </section><footer>
-  <p>© 2026 Spa Relajarte</p>
+  <p>© 2026 Spa </p>
 </footer><script>
   function login() {
     const user = document.getElementById('user').value;
