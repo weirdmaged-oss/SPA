@@ -2,7 +2,7 @@
 <head>
   
   <meta charset="UTF-8">
-  <title>Spa Relajarte</title>
+  <title>Spa </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
@@ -87,7 +87,7 @@
   </style>
 </head>
 <body><header>
-  <h1>Spa Relajarte</h1>
+  <h1>Spa </h1>
   <p>Tu espacio de descanso y bienestar</p>
 </header><!-- LOGIN --><div id="login" class="login-box">
   <h2>Inicio de Sesión</h2>
@@ -118,10 +118,9 @@
   <div class="card">
     <h2>Galería</h2>
     <div class="gallery">
-      <img src="https://images.unsplash.com/photo-1556228724-4c8b9a1e7f6a" alt="Spa 1">
+    
       <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874" alt="Spa 2">
       <img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1" alt="Spa 3">
-      <img src="https://images.unsplash.com/photo-1587019154181-75b3f2c6e37f" alt="Spa 4">
     </div>
   </div>
 </section><!-- CONTACTO --><section id="contacto">
